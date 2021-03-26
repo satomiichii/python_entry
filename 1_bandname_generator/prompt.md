@@ -1,4 +1,4 @@
-# Band Name Generator
+# Day1: Band Name Generator
 
 1. Create a greeting for your program.
 
@@ -11,3 +11,12 @@
 5. Make sure the input cursor shows on a new line, see the example at:
 
 https://band-name-generator-end.appbrewery.repl.run/
+
+## Today's takeaway
+
+- print() = console.log()
+- len() = .length
+- input() = prompt()
+- underscore_between_word = camelCase
+- '#' = '//' to comment out
+- Python's file extention is .py
