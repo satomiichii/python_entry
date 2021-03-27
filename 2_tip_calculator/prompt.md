@@ -20,6 +20,6 @@ HINT 2: https://www.kite.com/python/answers/how-to-limit-a-float-to-two-decimal-
 - type() = typeof
 - Python doesn't concat string with number for us.
 - We should use f string to concat these 2 types.
-- f'string {num or variable}' = `string ${num or variable}`
+- f'string {num or variable}' = using backtic with ${} in JS
 - Division returns floating number as a result
 - Use // 'floor division' to get integer as a result
