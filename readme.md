@@ -7,3 +7,4 @@ Udemy course: https://www.udemy.com/course/100-days-of-code/
 
 - Day1 : Band Name Generator
 - Day2 : Tip Calculator
+- Day3 : Treasure Island
