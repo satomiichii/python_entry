@@ -34,7 +34,8 @@ if player_num >= 3:
   print('You chose invalid number.')
 else:
   print(hands[player_num])
-  print(f'Computer chose: \n {hands[computer_num]}')
+  print('Computer chose:')
+  print(hands[computer_num])
   if player_num == computer_num:
     print("You tied.")
   elif (player_num - computer_num) == 1 or (player_num - computer_num) == -2:
