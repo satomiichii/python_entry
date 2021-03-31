@@ -6,7 +6,8 @@ https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freebor
 
 ## My Solution
 
-```def turn_right():
+```
+def turn_right():
     turn_left()
     turn_left()
     turn_left()
@@ -20,6 +21,7 @@ while not at_goal():
         move()
     else:
         turn_left()
+```
 
 ## Today's Takeaway
 
@@ -28,4 +30,7 @@ while not at_goal():
 - https://www.python.org/dev/peps/pep-0008/#indentation
 - while condition: = while (condition) {}
 - To invoke a function, you can simply type the name of the function and () following. same as JavaScript.
+
+```
+
 ```
