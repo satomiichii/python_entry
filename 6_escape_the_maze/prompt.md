@@ -30,7 +30,3 @@ while not at_goal():
 - https://www.python.org/dev/peps/pep-0008/#indentation
 - while condition: = while (condition) {}
 - To invoke a function, you can simply type the name of the function and () following. same as JavaScript.
-
-```
-
-```
