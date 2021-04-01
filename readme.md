@@ -11,3 +11,4 @@ Udemy course: https://www.udemy.com/course/100-days-of-code/
 - Day4 : Rock Paper Scissors
 - Day5 : Password Generator
 - Day6 : Escape the Maze
+- Day7 : Hangman
