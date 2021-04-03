@@ -11,6 +11,7 @@ def run_caesar():
 
     def caesar (type, original_text, num_shift):
         result_text = ''
+        num_shift = num_shift % len(alphabet)
         for letter in original_text:
             if letter in alphabet:
                 index = alphabet.index(letter)

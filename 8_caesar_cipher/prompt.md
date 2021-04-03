@@ -1,14 +1,14 @@
 # Day 8: Caesar Cipher
 
-Create a app that encrypt or decode your entered text by shifting the alphabet by the num index.
+Create a app that encrypt or decrypt your input text by shifting the alphabet by the num index.
 
 Example 1:
-your input > Type = 'encrypt' Text = 'hello' Shift = 1
+your input > Type = 'encode' Text = 'hello' Shift = 1
 print > "The encoded text is ifmmp"
 
 Example 2:
 your input > Type = 'decode' Text = 'ifmmp' Shift = 1
-print > "The encoded text is hello."
+print > "The decoded text is hello."
 
 ## My Solution
 
