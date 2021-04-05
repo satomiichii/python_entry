@@ -14,3 +14,4 @@ Udemy course: https://www.udemy.com/course/100-days-of-code/
 - Day7 : Hangman
 - Day8 : Caesar Cipher
 - Day9 : Secret Auction
+- Day10 : Calculator
