@@ -17,7 +17,7 @@ Target behavior: https://replit.com/@appbrewery/blackjack-final?embed=1&output=1
 
 ## My Solution
 
-https://github.com/satomiichii/python_entry/blob/master/10_blackjack/script.py
+https://github.com/satomiichii/python_entry/blob/master/11_blackjack/script.py
 
 ## Today's Takeaway
 
