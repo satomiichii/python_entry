@@ -6,7 +6,7 @@ Target behaviour: https://replit.com/@appbrewery/Day-7-Hangman-5-End?embed=1&out
 
 ## My Solution
 
-https://github.com/satomiichii/python_entry/blob/master/7_hangman/script.py
+https://github.com/satomiichii/python_entry/blob/master/07_hangman/script.py
 
 ## Today's Takeaway
 

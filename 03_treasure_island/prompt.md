@@ -7,7 +7,7 @@ https://app.diagrams.net/?lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1
 
 ## My solution
 
-https://github.com/satomiichii/python_entry/blob/master/3_treasure_island/script.py
+https://github.com/satomiichii/python_entry/blob/master/03_treasure_island/script.py
 
 ## Today's takeaway
 

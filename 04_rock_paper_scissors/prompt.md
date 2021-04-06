@@ -4,7 +4,7 @@ Imprement your own Rock Paper Scissors game by using lists and randomizing funct
 
 ## My Solution
 
-https://github.com/satomiichii/python_entry/blob/master/4_rock_paper_scissors/script.py
+https://github.com/satomiichii/python_entry/blob/master/04_rock_paper_scissors/script.py
 
 ## Today's Takeaway
 

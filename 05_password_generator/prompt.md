@@ -13,7 +13,7 @@ Your password is: Ne2!l9
 
 ## My Solution
 
-https://github.com/satomiichii/python_entry/blob/master/5_password_generator/script.py
+https://github.com/satomiichii/python_entry/blob/master/05_password_generator/script.py
 
 ## Today's Takeaway
 

@@ -6,7 +6,7 @@ Target behavior: https://replit.com/@appbrewery/blind-auction-completed?embed=1&
 
 ## My Solution
 
-https://github.com/satomiichii/python_entry/blob/master/9_secret_auction/script.py
+https://github.com/satomiichii/python_entry/blob/master/09_secret_auction/script.py
 
 ## Today's Takeaway
 

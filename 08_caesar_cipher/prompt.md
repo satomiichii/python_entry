@@ -1,6 +1,6 @@
 # Day 8: Caesar Cipher
 
-Create a app that encrypt or decrypt your input text by shifting the alphabet by the num index.
+Create an app that encrypt or decrypt your input text by shifting the alphabet by the num index.
 
 Example 1:
 your input > Type = 'encode' Text = 'hello' Shift = 1
@@ -12,7 +12,7 @@ print > "The decoded text is hello."
 
 ## My Solution
 
-https://github.com/satomiichii/python_entry/blob/master/8_caesar_cipher/script.py
+https://github.com/satomiichii/python_entry/blob/master/08_caesar_cipher/script.py
 
 ## Today's Takeaway
 
