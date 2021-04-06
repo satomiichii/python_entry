@@ -5,8 +5,6 @@ import os
 def clear():
     os.system('cls' if os.name=='nt' else 'clear')
 
-
-
 def start():
     hand = []
     for card in range(2):
@@ -52,7 +50,6 @@ def ace_check(hand):
             index = hand.index(11)
             hand[index] = 1
     return hand
-
 
 def play_game ():
 
