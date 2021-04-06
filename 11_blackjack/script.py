@@ -44,7 +44,6 @@ def judge(player, dealer, state):
     else:
         return True
     
-
 def ace_check(hand):
     while sum(hand) > 21 and 11 in hand:
             index = hand.index(11)
