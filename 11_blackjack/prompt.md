@@ -1,4 +1,4 @@
-# Day 10: Blackjack
+# Day 11: Blackjack
 
 Create a simpler version of Blackjack game.
 
