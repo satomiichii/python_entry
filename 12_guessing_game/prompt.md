@@ -6,7 +6,7 @@ Target behavior: https://replit.com/@appbrewery/guess-the-number-final?embed=1&o
 
 ## My Solution
 
-https://github.com/satomiichii/python_entry/blob/master/12_guessing game/script.py
+https://github.com/satomiichii/python_entry/blob/master/12_guessing_game/script.py
 
 ## Today's Takeaway
 
