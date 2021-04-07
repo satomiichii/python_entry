@@ -21,6 +21,6 @@ https://github.com/satomiichii/python_entry/blob/master/12_guessing game/script.
     local()
     print(num)
   ```
-- Modifying global variable from local scope is not encoraged to do it.
-- Global variable is better for making a global constant, which won't be modified.
-- The convention of the name for goloval constants is all uppercase with under score. ex) SUNNY_DAY
+- Modifying global variables from local scope is not encouraged to do it.
+- Global variables are better for making a global constant, which won't be modified.
+- The convention of the name for global constants is all uppercase with underscore. ex) SUNNY_DAY
