@@ -4,6 +4,7 @@ Create a game that gives user a choice between 2 celebrities and if user can pic
 Each time user win, score increment by 1.
 
 Sample game: http://www.higherlowergame.com/
+
 Target behavior: https://replit.com/@appbrewery/higher-lower-final?embed=1&output=1#main.py
 
 ## My Solution
