@@ -25,6 +25,9 @@ def game (person = '', score = 0):
         data_A = person
         print(f"You're right! Current score: {score}.")
 
+    while data_A == data_B:
+        data_B = random.choice(data)
+
     # print opponents and ask user to choose from A or B.
 
     print(f"Compare A: {data_A['name']}, {data_A['description']}, from {data_A['country']}.")
