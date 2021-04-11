@@ -2,6 +2,8 @@
 
 ## My Solution
 
+https://github.com/satomiichii/python_entry/blob/master/15_coffee_machine/script.py
+
 ## Today's Takeaway
 
 - Trying to use new IDE called PyCharm.
