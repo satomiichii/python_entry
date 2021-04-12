@@ -3,10 +3,10 @@ from data import MENU, resources, unit
 power = True
 
 
-def check_resource(user_drink):
+def check_resource(order_ingredients):
     """This function checks if there is enogh resourse to make user's choice drink."""
-    for ingredient in user_drink['ingredients']:
-        if resources[ingredient] < user_drink['ingredients'][ingredient]:
+    for ingredient in order_ingredients:
+        if resources[ingredient] < order_ingredients[ingredient]:
             print(f'Sorry there is not enough {ingredient}.')
             return False
     return True
@@ -27,15 +27,15 @@ while power:
     else:
         drink = MENU[command]
         price = float(drink['cost'])
-        enough_resource = check_resource(drink)
+        enough_resource = check_resource(drink['ingredients'])
 
         if enough_resource:
             coins = 0
             print('Please insert coins.')
-            coins += float(input('how many quarters?: ')) * 0.25
-            coins += float(input('how many dimes?: ')) * 0.10
-            coins += float(input('how many nickles?: ')) * 0.05
-            coins += float(input('how many pennies?: ')) * 0.01
+            coins += int(input('how many quarters?: ')) * 0.25
+            coins += int(input('how many nickles?: ')) * 0.05
+            coins += int(input('how many dimes?: ')) * 0.10
+            coins += int(input('how many pennies?: ')) * 0.01
 
             if coins < drink['cost']:
                 print("Sorry that's not enough money. Money refunded.")
