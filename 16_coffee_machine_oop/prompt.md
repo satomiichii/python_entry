@@ -16,5 +16,5 @@ https://github.com/satomiichii/python_entry/blob/master/16_coffee_machine_oop/sc
 - Object in Python has properties called 'Attribute' and can be accessed by using dot notation.
   object.attribute
 - self = this
-- self has to be passed into class methods.
+
   
