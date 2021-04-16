@@ -21,4 +21,6 @@ Udemy course: https://www.udemy.com/course/100-days-of-code/
 - Day14 : Higher Lower Game
 - Day15 : Coffee Machine
 - Day16 : Coffee Machine in OOP
-- DAY17 : Quiz Game
+- Day17 : Quiz Game
+- Day18 : The Damien Hirst Painting
+
