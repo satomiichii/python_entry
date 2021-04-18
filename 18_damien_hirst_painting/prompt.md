@@ -4,6 +4,8 @@ Create a drawing module that draw dots on the canvas and generate a painting, wh
 
 ## My Solution
 
+https://github.com/satomiichii/python_entry/blob/master/18_damien_hirst_painting/script.py
+
 ## Today's Takeaway
 
 - tuple is a data type that holds multiple values inside of parenthesis. (val, val, val)

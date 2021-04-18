@@ -23,4 +23,5 @@ Udemy course: https://www.udemy.com/course/100-days-of-code/
 - Day16 : Coffee Machine in OOP
 - Day17 : Quiz Game
 - Day18 : The Damien Hirst Painting
+- Day19 : Turtle Race
 
