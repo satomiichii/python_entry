@@ -11,3 +11,5 @@ For part1, implement the following features.
 https://github.com/satomiichii/python_entry/blob/master/20_21_snake_game/script.py
 
 ## Today's Takeaway
+
+- You can call a function that is attached to the class inside the class constructor function.
