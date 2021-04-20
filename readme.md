@@ -25,6 +25,6 @@ Udemy course: https://www.udemy.com/course/100-days-of-code/
 - Day18 : The Damien Hirst Painting
 - Day19 : Turtle Race
 - Day20 : Snake Game Part1
-
+- Day21 : Snake Game Part2
 
 
