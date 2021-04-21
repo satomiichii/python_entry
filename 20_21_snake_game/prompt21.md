@@ -29,3 +29,9 @@ class ClassName (SuperClass_Name):
         
         
 ```
+- You can access the last element in a list with list[-1]
+- To slice a list or tuple > list[startIdx: endIdx: steps]
+```buildoutcfg
+my_list = ['a', 'b', 'c', 'd', 'e']
+print (my_list[1:3]) >> ['b','c']
+```
