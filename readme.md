@@ -26,5 +26,6 @@ Udemy course: https://www.udemy.com/course/100-days-of-code/
 - Day19 : Turtle Race
 - Day20 : Snake Game Part1
 - Day21 : Snake Game Part2
+- Day22 : Pong
 
 
