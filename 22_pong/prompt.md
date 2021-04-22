@@ -14,4 +14,4 @@ https://github.com/satomiichii/python_entry/blob/master/22_pong/script.py
 ## Today's Takeaway
 
 - No new syntax from today
-- The key to utilise class is to think good structure based on each module's functionality
+- The key to utilize class is to think good structure based on each module's functionality
