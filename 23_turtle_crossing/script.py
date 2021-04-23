@@ -30,8 +30,9 @@ while game_is_on:
 
     # Detect Collision with cars
     for car in car_system.group:
-        if turtle.distance(car) < 30 and car.ycor() - turtle.ycor() < 20 :
+        if turtle.distance(car) < 25 and car.ycor() - turtle.ycor() < 19 :
             game_is_on = False
+            level.game_over()
 
 
 screen.exitonclick()

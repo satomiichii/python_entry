@@ -14,7 +14,7 @@ class Car(Turtle):
         self.penup()
         self.shapesize(stretch_wid=1, stretch_len=2)
         self.setheading(180)
-        self.goto(310, random.randint(-260, 260))
+        self.goto(310, random.randint(-250, 250))
 
 
 class CarManager:
@@ -22,6 +22,14 @@ class CarManager:
         self.pace = STARTING_MOVE_DISTANCE
         self.group = []
         self.traffic = 6
+        self.set_start_position()
+
+    def set_start_position(self):
+        for index in range(10):
+            new_car = Car()
+            random_x = random.randint(0, 300)
+            new_car.setx(random_x)
+            self.group.append(new_car)
 
     def generate_car(self):
         ran_num = random.randint(0, self.traffic)
