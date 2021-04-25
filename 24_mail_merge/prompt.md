@@ -5,6 +5,7 @@ Each letter has to be individual file and has to have guest's name on it.
 
 ## My Solution
 
+https://github.com/satomiichii/python_entry/blob/master/24_mail_merge/Mail%20Merge%20Project%20Start/main.py
 
 ## Today's Takeaway
 

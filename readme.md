@@ -28,5 +28,6 @@ Udemy course: https://www.udemy.com/course/100-days-of-code/
 - Day21 : Snake Game Part2
 - Day22 : Pong
 - Day23 : The Turtle Crossing
+- Day24 : Mail merge
 
 
