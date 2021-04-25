@@ -29,5 +29,6 @@ Udemy course: https://www.udemy.com/course/100-days-of-code/
 - Day22 : Pong
 - Day23 : The Turtle Crossing
 - Day24 : Mail merge
+- Day25 : States Game
 
 
