@@ -30,5 +30,6 @@ Udemy course: https://www.udemy.com/course/100-days-of-code/
 - Day23 : The Turtle Crossing
 - Day24 : Mail merge
 - Day25 : States Game
+- Day26 : NATO Alphabet
 
 
