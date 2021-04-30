@@ -12,3 +12,4 @@ user_input = input('Enter a word: ').upper()
 code_list = [data_dict[letter] for letter in user_input]
 
 print(code_list)
+
