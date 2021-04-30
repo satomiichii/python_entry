@@ -4,7 +4,7 @@ Create a GUI program that convert miles to kilometer by using Tkinter module.
 
 ## My solution
 
-https://github.com/satomiichii/python_entry/blob/master/27_miles_to_kilometer/script.py
+https://github.com/satomiichii/python_entry/blob/master/27_miles_to_kilometers/script.py
 
 
 ## Today's Takeaway
