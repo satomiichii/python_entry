@@ -31,5 +31,8 @@ Udemy course: https://www.udemy.com/course/100-days-of-code/
 - Day24 : Mail merge
 - Day25 : States Game
 - Day26 : NATO Alphabet
+- Day27 : Miles to Kilometer Converter
+- Day28 : Pomodoro Timer
+- Day29 : Password Manager
 
 
