@@ -1,0 +1,9 @@
+sasa | test@email.com | pass
+tama | test@email.com | pass
+Naekozon | test@email.com | 123456
+Sami | test@email.com | shmitzy
+Amazon | test@email.com | samisami
+ebay | test@email.com | hahahaha
+Etsy | test@email.com | password
+Samazon | test@email.com | passa
+Tmazon | test@email.com | OKpassword
