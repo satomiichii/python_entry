@@ -16,3 +16,9 @@ finally:
     Do this no matter what happenes
 ```
 - You can have multiple except clause, but only the first except clause is called when multiple error occur
+- raise error = throw error
+```buildoutcfg
+raise error_type('This is the error raised')
+>> in the console >> error_type:This is the error raised
+```
+- If you can handle the potential error with if/else statement, you should do it with them instead of using try/except
