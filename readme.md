@@ -34,5 +34,6 @@ Udemy course: https://www.udemy.com/course/100-days-of-code/
 - Day27 : Miles to Kilometer Converter
 - Day28 : Pomodoro Timer
 - Day29 : Password Manager
+- Day30 : Password Manager ver.2
 
 
