@@ -36,5 +36,6 @@ Udemy course: https://www.udemy.com/course/100-days-of-code/
 - Day29 : Password Manager
 - Day30 : Password Manager ver.2
 - Day31 : Flash Card
+- Day32 : Automated Birthday Wisher
 
 
