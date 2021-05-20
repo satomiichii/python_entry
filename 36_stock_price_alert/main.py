@@ -20,13 +20,13 @@ DAY_BEFORE = str(dt.date.today() - dt.timedelta(days=2))
 params = {
     'function': DATA_TYPE,
     'symbol': STOCK,
-    'apikey': os.environ['API_KEY']
+    'apikey': os.environ['API_KEY_STOCK']
 }
 
-response = requests.get('https://www.alphavantage.co/query', params=params)
-response.raise_for_status()
-data = response.json()
-daily_data = data['Time Series (Daily)']
+response_stock = requests.get('https://www.alphavantage.co/query', params=params)
+response_stock.raise_for_status()
+stock_data = response_stock.json()
+daily_data = stock_data['Time Series (Daily)']
 
 # function to check price change between yesterday and day before
 
@@ -38,18 +38,30 @@ def check_price():
     if change_rate > 1.05 or change_rate < 0.95:
         return True
     else:
-        return False
-
-
-if check_price():
-    print('Get News')
+        return True
 
 
 ## STEP 2: Use https://newsapi.org
 # Instead of printing ("Get News"), actually get the first 3 news pieces for the COMPANY_NAME.
 
+news_params = {
+    'apiKey': os.environ['API_KEY_NEWS'],
+    'q': COMPANY_NAME
+}
+
+
 def get_news():
-    response = requests()
+    response_news = requests.get('https://newsapi.org/v2/everything', params=news_params)
+    response_news.raise_for_status()
+    news_data = response_news.json()['articles']
+    for index in range(0, 4):
+        news = news_data[index]
+        print(f"Title: {news['title']}\n"
+              f"Detail: {news['description']}")
+
+
+if check_price():
+    get_news()
 
 ## STEP 3: Use https://www.twilio.com
 # Send a seperate message with the percentage change and each article's title and description to your phone number.
