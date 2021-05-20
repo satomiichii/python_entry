@@ -1,6 +1,6 @@
 # Day 36 : Stock Price Alert
 
-Create an app that checks selected stock price and when the closing price changes more than certain %, send you a text alert with related news article.
+Create an app that checks selected stock price and when the closing price changes more than 5 %, send you a text alert with related news article.
 
 ## My Solution
 
