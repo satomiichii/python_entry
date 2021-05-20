@@ -40,3 +40,4 @@ Udemy course: https://www.udemy.com/course/100-days-of-code/
 - Day33 : ISS Locator
 - Day34 : Quiz APP
 - Day35 : Rain Alert
+- Day36 : Stock Price Alert
