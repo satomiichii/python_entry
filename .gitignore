@@ -1,2 +1,4 @@
 .DS_store
 /35_rain_alert/.env
+/36_stock_price_alert/.env
+/37_habit_tracker/.env
