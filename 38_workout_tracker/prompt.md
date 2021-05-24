@@ -6,7 +6,7 @@ Create a Workout Tracker App that keep track of daily exercise on Google spreads
 
 ## My Solution
 
-https://github.com/satomiichii/python_entry/blob/master/38_workout_tracher/main.py
+https://github.com/satomiichii/python_entry/blob/master/38_workout_tracker/main.py
 
 ## Today's Takeaway
 
