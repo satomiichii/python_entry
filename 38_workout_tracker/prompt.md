@@ -10,4 +10,8 @@ https://github.com/satomiichii/python_entry/blob/master/38_workout_tracher/main.
 
 ## Today's Takeaway
 
+- Sheety > API to interact with google spreadsheet
+  https://sheety.co/
+- Nutrition & Exercise API > API that integrated with natural language AI
+  https://www.nutritionix.com/business/api
 - Bearer authentication = Token authentication
