@@ -43,3 +43,4 @@ Udemy course: https://www.udemy.com/course/100-days-of-code/
 - Day36 : Stock Price Alert
 - Day37 : Habit Tracker
 - Day38 : Workout Tracker with Google Spreadsheet
+- Day39 : Cheap Flight Finder Pert1
