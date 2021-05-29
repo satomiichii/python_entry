@@ -33,8 +33,6 @@ class FlightSearch:
                 'date_from': self.from_date,
                 'date_to': self.to_date
             }
-            print(params)
-            print(headers)
             response = requests.get(url=self.endpoint, params=params, headers=headers)
             response.raise_for_status()
             self.result_list.append(response.json())

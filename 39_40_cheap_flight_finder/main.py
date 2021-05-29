@@ -7,6 +7,7 @@ from datetime import datetime
 from data_manager import DataManager
 from flight_data import FlightData
 from flight_search import FlightSearch
+from pprint import pprint
 from notification_manager import NotificationManager
 
 data = DataManager()
@@ -16,4 +17,4 @@ destination = [to['iataCode'] for to in destination_data]
 
 flight_serch = FlightSearch(destination)
 flight_data = flight_serch.fetch_flight_data()
-print(flight_data)
+pprint(flight_data[0])
