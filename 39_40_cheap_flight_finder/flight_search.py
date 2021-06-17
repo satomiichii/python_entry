@@ -40,7 +40,11 @@ class FlightSearch:
             }
             response = requests.get(url=self.endpoint, params=params, headers=headers)
             response.raise_for_status()
-            self.result_list.append(response.json())
-        return self.result_list
+            try:
+                print(f"There are flights found for {city}.")
+                self.result_list.append(response.json()['data'][0])
+            except IndexError:
+                print(f"No flights found for {city}.")
 
+        return self.result_list
 
