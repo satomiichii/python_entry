@@ -13,8 +13,8 @@ from notification_manager import NotificationManager
 data = DataManager()
 destination_data = data.fetch_data()
 destination = [to['iataCode'] for to in destination_data]
-# print(destination)
+print(destination)
 
-flight_serch = FlightSearch(destination)
-flight_data = flight_serch.fetch_flight_data()
-pprint(flight_data[0])
+flight_search = FlightSearch(destination)
+flight_data = flight_search.fetch_flight_data()
+# print(flight_data[0])

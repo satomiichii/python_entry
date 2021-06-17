@@ -31,7 +31,12 @@ class FlightSearch:
                 'fly_from': self.from_city,
                 'fly_to': city,
                 'date_from': self.from_date,
-                'date_to': self.to_date
+                'date_to': self.to_date,
+                'nights_in_dst_from': 7,
+                'nights_in_dst_to': 28,
+                'flight_type': 'round',
+                'max_stopovers': 0,
+                'curr': 'USD'
             }
             response = requests.get(url=self.endpoint, params=params, headers=headers)
             response.raise_for_status()
