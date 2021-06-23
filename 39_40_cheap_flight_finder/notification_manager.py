@@ -12,7 +12,7 @@ class NotificationManager:
         self.auth_token = os.environ['TWILIO_AUTH_TOKEN']
         self.client = Client(self.account_sid, self.auth_token)
 
-    def send_message(self, flight_data ):
+    def send_message(self, flight_data):
         message = self.client.messages \
             .create(
             body=flight_data,

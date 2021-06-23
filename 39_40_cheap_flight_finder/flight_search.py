@@ -2,14 +2,14 @@ import os
 import requests
 from dotenv import load_dotenv
 import datetime as dt
+from pprint import pprint
 
 
 class FlightSearch:
     # This class is responsible for talking to the Flight Search API.
-    def __init__(self, destination):
+    def __init__(self):
         self.endpoint = 'https://tequila-api.kiwi.com/v2/search'
         self.from_city = 'NYC'
-        self.to_city = destination
         self.from_date = ''
         self.to_date = ''
         self.get_date()
@@ -22,29 +22,26 @@ class FlightSearch:
         self.from_date = tomorrow
         self.to_date = six_months
 
-    def fetch_flight_data(self):
+    def fetch_flight_data(self, destination):
         headers = {
             'apikey': os.environ['KIWI_API_KEY']
         }
-        for city in self.to_city:
-            params = {
-                'fly_from': self.from_city,
-                'fly_to': city,
-                'date_from': self.from_date,
-                'date_to': self.to_date,
-                'nights_in_dst_from': 7,
-                'nights_in_dst_to': 28,
-                'flight_type': 'round',
-                'max_stopovers': 0,
-                'curr': 'USD'
-            }
-            response = requests.get(url=self.endpoint, params=params, headers=headers)
-            response.raise_for_status()
-            try:
-                print(f"There are flights found for {city}.")
-                self.result_list.append(response.json()['data'][0])
-            except IndexError:
-                print(f"No flights found for {city}.")
+        params = {
+            'fly_from': self.from_city,
+            'fly_to': destination,
+            'date_from': self.from_date,
+            'date_to': self.to_date,
+            'nights_in_dst_from': 7,
+            'nights_in_dst_to': 28,
+            'flight_type': 'round',
+            'max_stopovers': 0,
+            'curr': 'USD'
+        }
+        response = requests.get(url=self.endpoint, params=params, headers=headers)
+        response.raise_for_status()
+        try:
+            return response.json()['data'][0]
 
-        return self.result_list
-
+        except IndexError:
+            print(f"No flights found for {destination}.")
+            return False
